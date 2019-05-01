@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 配置mybatis全局变量 -->
+	<settings>
+		<!-- 允许JDBC支持自动生成主键  比如：插入信息后会返回主键id -->
+		<setting name="useGeneratedKeys" value="true"/>
+		<!-- 是否开启驼峰命名规则  -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+</configuration>
